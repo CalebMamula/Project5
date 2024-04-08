@@ -1,22 +1,22 @@
 # Catalog Service
 
-This application is part of the Polar Bookshop system and provides the functionality for managing
-the books in the bookshop catalog. It's part of the project built in the
-[Cloud Native Spring in Action](https://www.manning.com/books/cloud-native-spring-in-action) book
+This application is part of the Polar jobshop system and provides the functionality for managing
+the jobs in the jobshop catalog. It's part of the project built in the
+[Cloud Native Spring in Action](https://www.manning.com/jobs/cloud-native-spring-in-action) job
 by [Thomas Vitale](https://www.thomasvitale.com).
 
 ## REST API
 
 | Endpoint	      | Method   | Req. body  | Status | Resp. body     | Description    		   	     |
 |:---------------:|:--------:|:----------:|:------:|:--------------:|:-------------------------------|
-| `/books`        | `GET`    |            | 200    | Book[]         | Get all the books in the catalog. |
-| `/books`        | `POST`   | Book       | 201    | Book           | Add a new book to the catalog. |
-|                 |          |            | 422    |                | A book with the same ISBN already exists. |
-| `/books/{isbn}` | `GET`    |            | 200    | Book           | Get the book with the given ISBN. |
-|                 |          |            | 404    |                | No book with the given ISBN exists. |
-| `/books/{isbn}` | `PUT`    | Book       | 200    | Book           | Update the book with the given ISBN. |
-|                 |          |            | 200    | Book           | Create a book with the given ISBN. |
-| `/books/{isbn}` | `DELETE` |            | 204    |                | Delete the book with the given ISBN. |
+| `/jobs`        | `GET`    |            | 200    | Job[]         | Get all the jobs in the catalog. |
+| `/jobs`        | `POST`   | Job       | 201    | Job           | Add a new job to the catalog. |
+|                 |          |            | 422    |                | A job with the same JobID already exists. |
+| `/jobs/{isbn}` | `GET`    |            | 200    | Job           | Get the job with the given JobID. |
+|                 |          |            | 404    |                | No job with the given JobID exists. |
+| `/jobs/{isbn}` | `PUT`    | Job       | 200    | Job           | Update the job with the given JobID. |
+|                 |          |            | 200    | Job           | Create a job with the given JobID. |
+| `/jobs/{isbn}` | `DELETE` |            | 204    |                | Delete the job with the given JobID. |
 
 ## Useful Commands
 
