@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: ${Project5Port}
   tomcat:
     connection-timeout: 2s
     keep-alive-timeout: 15s
