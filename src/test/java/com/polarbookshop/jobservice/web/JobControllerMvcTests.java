@@ -1,7 +1,7 @@
-package com.polarbookshop.catalogservice.web;
+package com.polarbookshop.jobservice.web;
 
-import com.polarbookshop.catalogservice.domain.JobNotFoundException;
-import com.polarbookshop.catalogservice.domain.JobService;
+import com.polarbookshop.jobservice.domain.JobNotFoundException;
+import com.polarbookshop.jobservice.domain.JobService;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
