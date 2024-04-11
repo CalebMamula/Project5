@@ -1,4 +1,4 @@
-package com.polarbookshop.catalogservice;
+package com.polarbookshop.jobservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ public class HomeController {
 	@GetMapping("/")
 	public String getGreeting() {
 
-		return "Welcome to the book catalog! Let's hope this works!";
+		return "Welcome to the job catalog! Let's hope this works!";
 	}
 
 }

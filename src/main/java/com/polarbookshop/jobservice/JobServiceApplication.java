@@ -1,13 +1,13 @@
-package com.polarbookshop.catalogservice;
+package com.polarbookshop.jobservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CatalogServiceApplication {
+public class JobServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CatalogServiceApplication.class, args);
+		SpringApplication.run(JobServiceApplication.class, args);
 	}
 
 }

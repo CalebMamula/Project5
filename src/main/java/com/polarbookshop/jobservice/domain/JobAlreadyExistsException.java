@@ -1,4 +1,4 @@
-package com.polarbookshop.catalogservice.domain;
+package com.polarbookshop.jobservice.domain;
 
 public class JobAlreadyExistsException extends RuntimeException {
 

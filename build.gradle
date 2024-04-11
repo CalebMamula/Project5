@@ -11,7 +11,7 @@ java {
   sourceCompatibility = '17'
 }
 
-description = 'Provides functionality for managing the books in the catalog.'
+description = 'Provides functionality for managing the jobs in the catalog.'
 
 repositories {
 	mavenCentral()

@@ -1,10 +1,10 @@
-package com.polarbookshop.catalogservice.web;
+package com.polarbookshop.jobservice.web;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.polarbookshop.catalogservice.domain.JobAlreadyExistsException;
-import com.polarbookshop.catalogservice.domain.JobNotFoundException;
+import com.polarbookshop.jobservice.domain.JobAlreadyExistsException;
+import com.polarbookshop.jobservice.domain.JobNotFoundException;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;

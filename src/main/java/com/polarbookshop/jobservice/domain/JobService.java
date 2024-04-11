@@ -1,4 +1,4 @@
-package com.polarbookshop.catalogservice.domain;
+package com.polarbookshop.jobservice.domain;
 
 import org.springframework.stereotype.Service;
 

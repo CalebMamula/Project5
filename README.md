@@ -1,7 +1,7 @@
-# Catalog Service
+# Job Service
 
 This application is part of the Polar jobshop system and provides the functionality for managing
-the jobs in the jobshop catalog. It's part of the project built in the
+the jobs in the jobshop job. It's part of the project built in the
 [Cloud Native Spring in Action](https://www.manning.com/jobs/cloud-native-spring-in-action) job
 by [Thomas Vitale](https://www.thomasvitale.com).
 
@@ -31,5 +31,5 @@ by [Thomas Vitale](https://www.thomasvitale.com).
 After building the application, you can also run it from the Java CLI:
 
 ```bash
-java -jar build/libs/catalog-service-0.0.1-SNAPSHOT.jar
+java -jar build/libs/job-service-0.0.1-SNAPSHOT.jar
 ```

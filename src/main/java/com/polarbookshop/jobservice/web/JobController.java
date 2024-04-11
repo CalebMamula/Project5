@@ -1,9 +1,9 @@
-package com.polarbookshop.catalogservice.web;
+package com.polarbookshop.jobservice.web;
 
 import jakarta.validation.Valid;
 
-import com.polarbookshop.catalogservice.domain.Job;
-import com.polarbookshop.catalogservice.domain.JobService;
+import com.polarbookshop.jobservice.domain.Job;
+import com.polarbookshop.jobservice.domain.JobService;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;

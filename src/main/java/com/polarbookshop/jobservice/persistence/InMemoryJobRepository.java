@@ -1,11 +1,11 @@
-package com.polarbookshop.catalogservice.persistence;
+package com.polarbookshop.jobservice.persistence;
 
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.polarbookshop.catalogservice.domain.Job;
-import com.polarbookshop.catalogservice.domain.JobRepository;
+import com.polarbookshop.jobservice.domain.Job;
+import com.polarbookshop.jobservice.domain.JobRepository;
 
 import org.springframework.stereotype.Repository;
 
